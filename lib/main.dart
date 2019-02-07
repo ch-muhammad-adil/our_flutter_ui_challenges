@@ -37,7 +37,8 @@ class MyHomePageState extends State<MyHomePage> {
               fit: BoxFit.cover,
             ),
           ),
-        )
+        ),
+
       ],
     );
   }
