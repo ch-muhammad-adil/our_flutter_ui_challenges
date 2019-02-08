@@ -186,17 +186,6 @@ class _MyHomePageState extends State<CarRentalSignupScreen> {
                               width: 25,
                               child: new CustomPaint(
                                 foregroundPainter: new MyPainter(profile),
-//                                  child: AspectRatio(
-//                                    aspectRatio: 480/451,
-//                                    child: Container(
-//                                      margin: EdgeInsets.only(left: 10),
-//                                        decoration: BoxDecoration(
-//                                            shape: BoxShape.circle,
-//                                            image: DecorationImage(
-//                                                image: ExactAssetImage(
-//                                                    "assets/profile.jpg"),alignment: Alignment.center,
-//                                                fit: BoxFit.cover))),
-//                                  )
                               )),
                         ],
                       ),
