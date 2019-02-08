@@ -48,6 +48,10 @@ flutter:
     - assets/profile_2.jpg
     - assets/percent.png
     - assets/beach.jpeg
+    - assets/beach_1.jpg
+    - assets/beach_2.jpg
+    - assets/beach_3.jpg
+    - assets/beach_4.jpg
   #  - images/a_dot_ham.jpeg
 
   # An image asset can refer to one or more resolution-specific "variants", see

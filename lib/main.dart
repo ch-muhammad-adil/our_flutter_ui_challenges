@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:scoped_model/scoped_model.dart';
 import 'package:my_flutter_ui_challenges/car_rental_screens/signup_screen.dart';
 import 'package:my_flutter_ui_challenges/tickets_booking_screens/book_tickets_screen.dart';
+import 'package:my_flutter_ui_challenges/tickets_booking_screens/home_screen.dart';
 
 void main() => runApp(MyApp());
 

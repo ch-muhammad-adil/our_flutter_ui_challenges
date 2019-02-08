@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:my_flutter_ui_challenges/tickets_booking_screens/home_screen.dart';
 
 class TicketBookingScreen extends StatefulWidget {
   TicketBookingScreen({Key key, this.title}) : super(key: key);
@@ -36,18 +37,32 @@ class _TicketBookingScreenState extends State<TicketBookingScreen> {
           currentIndex: _currentIndex,
           items: [
             BottomNavigationBarItem(
-              icon: new Icon(Icons.home, color: Colors.black,),
+              icon: new Icon(
+                Icons.home,
+                color: Colors.black,
+              ),
               title: new Text(''),
             ),
             BottomNavigationBarItem(
-              icon: new Icon(Icons.phone, color: Colors.black,),
+              icon: new Icon(
+                Icons.phone,
+                color: Colors.black,
+              ),
               title: new Text(''),
             ),
             BottomNavigationBarItem(
-              icon: new Icon(Icons.mail, color: Colors.black,),
+              icon: new Icon(
+                Icons.mail,
+                color: Colors.black,
+              ),
               title: new Text(''),
             ),
-            BottomNavigationBarItem(icon: Icon(Icons.person, color: Colors.black,), title: Text(''))
+            BottomNavigationBarItem(
+                icon: Icon(
+                  Icons.person,
+                  color: Colors.black,
+                ),
+                title: Text(''))
           ],
         ));
   }
@@ -227,7 +242,10 @@ class HomeWidget extends StatelessWidget {
     return Container(
       margin: EdgeInsets.fromLTRB(index != 0 ? 7 : 0, 0, index != 2 ? 7 : 0, 7),
       child: GestureDetector(
-        onTap: () {},
+        onTap: () {
+          Navigator.push(context,
+              MaterialPageRoute(builder: (context) => MyHomePageScreen()));
+        },
         child: Card(
           shape:
               RoundedRectangleBorder(borderRadius: BorderRadius.circular(20)),
@@ -277,6 +295,28 @@ class HomeWidget extends StatelessWidget {
                                 color: Colors.white,
                                 fontSize: 12,
                               ),
+                            ),
+                            SizedBox(
+                              width: 60,
+                            ),
+                            Row(
+                              children: <Widget>[
+                                Icon(
+                                  Icons.star,
+                                  color: Colors.yellow,
+                                  size: 14,
+                                ),
+                                SizedBox(
+                                  width: 3,
+                                ),
+                                Text(
+                                  "4.7",
+                                  style: TextStyle(
+                                      fontWeight: FontWeight.bold,
+                                      fontSize: 12,
+                                      color: Colors.white),
+                                )
+                              ],
                             )
                           ],
                         )
