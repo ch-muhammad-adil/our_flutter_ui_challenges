@@ -1,6 +1,6 @@
 # my_flutter_ui_challenges
 
-Different set of screens implemented using flutter.
+Different set of screens implemented using flutter. Design concept taken from https://www.uplabs.com/posts/car-rental-app-welcome-and-onboarding-screens and https://www.uplabs.com/posts/travel-ticket-booking-app
 
 <img width="430" alt="screen shot 2019-02-11 at 11 53 35 am" src="https://user-images.githubusercontent.com/29778659/52549184-b9dbbf80-2df3-11e9-82ce-ee5addf8ad38.png">
 
