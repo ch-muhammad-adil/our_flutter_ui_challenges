@@ -4,7 +4,7 @@ Different set of screens implemented using flutter.
 
 # Home Screen
 
-<img width="430" alt="screen shot 2019-02-11 at 11 53 35 am" src="https://user-images.githubusercontent.com/29778659/52549184-b9dbbf80-2df3-11e9-82ce-ee5addf8ad38.png">
+![](/screenshots/screenshot_home.png)
 
 # Car Rental App 
 Design concept taken from https://www.uplabs.com/posts/car-rental-app-welcome-and-onboarding-screens 
@@ -23,7 +23,7 @@ Design concept taken from https://www.uplabs.com/posts/travel-ticket-booking-app
 # Banking App Home Screen
 Design concept taken from https://www.uplabs.com/posts/banking-application-screen
 
-![](/screenshot_banking.png)
+![](/screenshots/screenshot_banking.png)
 
 
 
