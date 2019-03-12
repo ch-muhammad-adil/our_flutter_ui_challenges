@@ -3,7 +3,7 @@ import 'package:my_flutter_ui_challenges/banking_application_screens/banking_app
 import 'package:scoped_model/scoped_model.dart';
 import 'package:my_flutter_ui_challenges/car_rental_screens/signup_screen.dart';
 import 'package:my_flutter_ui_challenges/tickets_booking_screens/book_tickets_screen.dart';
-import 'package:my_flutter_ui_challenges/tickets_booking_screens/home_screen.dart';
+import 'package:my_flutter_ui_challenges/interior_decoration/home_screen.dart';
 
 void main() => runApp(MyApp());
 
@@ -32,6 +32,7 @@ class MyHomePageState extends State<MyHomePage> {
     "Car Rental App Screens",
     "Ticket Booking App Screens",
     "Banking App Home Screen",
+    "Interior Decoration Screens"
   ];
 
   @override
@@ -98,6 +99,11 @@ class SingleItem extends StatelessWidget {
                 context,
                 MaterialPageRoute(
                     builder: (context) => BankingAppHomeScreen()));
+          }else if (index == 3){
+            Navigator.push(
+                context,
+                MaterialPageRoute(
+                    builder: (context) => HomeScreen()));
           }
         },
         child: Card(
