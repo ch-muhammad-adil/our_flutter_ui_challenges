@@ -55,6 +55,10 @@ flutter:
     - assets/chairs.jpg
     - assets/chairs_2.jpg
     - assets/chairs_3.jpg
+    - assets/login.png
+    - assets/google.png
+    - assets/twitter.png
+    - assets/linkedin.png
 
   fonts:
         - family: Bubble
