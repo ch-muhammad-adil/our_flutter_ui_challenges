@@ -25,7 +25,10 @@ Design concept taken from https://www.uplabs.com/posts/banking-application-scree
 
 ![](/screenshots/screenshot_banking.png)
 
+# Interior Decoration Design Screens
+Design concept taken from https://www.uplabs.com/posts/interior-decoration-8f1a4a61-a105-4e94-87bc-5005163ac043
 
+![interior-decor](https://user-images.githubusercontent.com/29778659/54197515-f8919200-44e5-11e9-8b97-2f809ca50547.gif)
 
 ## Getting Started
 
