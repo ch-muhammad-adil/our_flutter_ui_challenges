@@ -30,6 +30,11 @@ Design concept taken from https://www.uplabs.com/posts/interior-decoration-8f1a4
 
 ![interior-decor](https://user-images.githubusercontent.com/29778659/54197515-f8919200-44e5-11e9-8b97-2f809ca50547.gif)
 
+# Login Signup Design Screens
+Design concept taken from https://www.uplabs.com/posts/login-sign-up-page-template
+
+![](/screenshots/screenshot_login.png)
+![](/screenshots/screenshot_signup.png)
 ## Getting Started
 
 This project is containing implementation of different design screens using flutter, you can also use it to learn/explore more about flutter.

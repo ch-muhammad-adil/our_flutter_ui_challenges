@@ -280,13 +280,11 @@ class _LoginScreenState extends State<LoginScreen> {
                                     MediaQuery.of(context).size.height * 0.065,
                                 decoration: BoxDecoration(
                                     color: Colors.red, shape: BoxShape.circle),
-                                child: Center(
                                   child: Image.asset(
                                     "assets/google.png",
                                     color: Colors.white,
                                   ),
                                 ),
-                              ),
                               Container(
                                 margin: EdgeInsets.only(left: 7),
                                 height:
@@ -296,13 +294,11 @@ class _LoginScreenState extends State<LoginScreen> {
                                 decoration: BoxDecoration(
                                     color: Colors.lightBlue[400],
                                     shape: BoxShape.circle),
-                                child: Center(
                                   child: Image.asset(
                                     "assets/twitter.png",
                                     color: Colors.white,
                                   ),
                                 ),
-                              ),
                               Container(
                                 margin: EdgeInsets.only(left: 7),
                                 height:
@@ -312,11 +308,9 @@ class _LoginScreenState extends State<LoginScreen> {
                                 decoration: BoxDecoration(
                                     color: Colors.lightBlue[800],
                                     shape: BoxShape.circle),
-                                child: Center(
                                   child: Image.asset(
                                     "assets/linkedin.png",
                                     color: Colors.white,
-                                  ),
                                 ),
                               )
                             ],
