@@ -39,7 +39,7 @@ Design concept taken from https://www.uplabs.com/posts/login-sign-up-page-templa
 # Music Player Design Screens
 Design concept taken from https://www.uplabs.com/posts/google-play-music-re-design-music-player-challenge
 
-![](/screenshots/musicplayer_gif.mov)
+![](/screenshots/music_player_gif.gif)
 
 ## Getting Started
 
