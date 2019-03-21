@@ -9,7 +9,6 @@ class LoginScreen extends StatefulWidget {
 class _LoginScreenState extends State<LoginScreen> {
   FocusNode myFocusNode;
 
-//  FocusNode focusNode2;
   final GlobalKey<FormState> _formKey = GlobalKey<FormState>();
   String _email;
   String _password;
@@ -17,16 +16,13 @@ class _LoginScreenState extends State<LoginScreen> {
   @override
   void initState() {
     super.initState();
-
     myFocusNode = FocusNode();
-//    focusNode2 = FocusNode();
   }
 
   @override
   void dispose() {
     // Clean up the focus node when the Form is disposed
     myFocusNode.dispose();
-//    focusNode2.dispose();
     super.dispose();
   }
 

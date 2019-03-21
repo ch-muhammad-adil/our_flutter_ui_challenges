@@ -21,6 +21,8 @@ dependencies:
   cupertino_icons: ^0.1.2
   scoped_model: ^1.0.1
   percent_indicator: ^1.0.13
+  boxed_vertical_seekbar: ^1.0.1
+  fluttery_seekbar: ^0.0.1
 
 dev_dependencies:
   flutter_test:

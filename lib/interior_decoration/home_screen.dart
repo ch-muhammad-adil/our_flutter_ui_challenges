@@ -182,6 +182,7 @@ class _HomeScreen extends State<HomeScreen> {
           },
           itemCount: 3,
           scrollDirection: Axis.horizontal,
+
         ));
   }
 }

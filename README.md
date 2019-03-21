@@ -35,6 +35,12 @@ Design concept taken from https://www.uplabs.com/posts/login-sign-up-page-templa
 
 ![](/screenshots/screenshot_login.png)
 ![](/screenshots/screenshot_signup.png)
+
+# Music Player Design Screens
+Design concept taken from https://www.uplabs.com/posts/google-play-music-re-design-music-player-challenge
+
+![](/screenshots/musicplayer_gif.mov)
+
 ## Getting Started
 
 This project is containing implementation of different design screens using flutter, you can also use it to learn/explore more about flutter.

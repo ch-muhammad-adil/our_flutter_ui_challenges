@@ -5,6 +5,7 @@ import 'package:my_flutter_ui_challenges/car_rental_screens/signup_screen.dart';
 import 'package:my_flutter_ui_challenges/tickets_booking_screens/book_tickets_screen.dart';
 import 'package:my_flutter_ui_challenges/interior_decoration/home_screen.dart';
 import 'package:my_flutter_ui_challenges/login_signup_screens/login_screen.dart';
+import 'package:my_flutter_ui_challenges/music_player_challenge/home_screen.dart';
 
 void main() => runApp(MyApp());
 
@@ -34,38 +35,41 @@ class MyHomePageState extends State<MyHomePage> {
     "Ticket Booking App Screens",
     "Banking App Home Screen",
     "Interior Decoration Screens",
-    "Login Signup Screens"
+    "Login Signup Screens",
+    "Music Player Screens"
   ];
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       body: CustomScrollView(
-          slivers: <Widget>[
-            SliverAppBar(
-              backgroundColor: Colors.green,
-              expandedHeight: 200.0,
-              pinned: true,
-              flexibleSpace: FlexibleSpaceBar(
-                title: Text('Flutter UI Challenges'),
-                background: Image.asset(
-                  'assets/desert.jpg',
-                  fit: BoxFit.cover,
-                ),
+        slivers: <Widget>[
+          SliverAppBar(
+            backgroundColor: Colors.green,
+            expandedHeight: 200.0,
+            pinned: true,
+            flexibleSpace: FlexibleSpaceBar(
+              title: Text('Flutter UI Challenges'),
+              background: Image.asset(
+                'assets/desert.jpg',
+                fit: BoxFit.cover,
               ),
             ),
-            SliverPadding(
-              padding: EdgeInsets.only(top: 10),
+          ),
+          SliverPadding(
+            padding: EdgeInsets.only(top: 10),
+          ),
+          SliverFixedExtentList(
+            itemExtent: 60,
+            delegate: SliverChildBuilderDelegate(
+              (context, index) => SingleItem(challengesList[index], index),
+              childCount: challengesList.length,
             ),
-            SliverFixedExtentList(
-              itemExtent: 60,
-              delegate: SliverChildBuilderDelegate(
-                (context, index) => SingleItem(challengesList[index], index),
-                childCount: challengesList.length,
-              ),
-            ),
-            SliverPadding(padding: EdgeInsets.only(bottom: 20),)
-          ],
+          ),
+          SliverPadding(
+            padding: EdgeInsets.only(bottom: 20),
+          )
+        ],
       ),
     );
   }
@@ -91,26 +95,23 @@ class SingleItem extends StatelessWidget {
                 context,
                 MaterialPageRoute(
                     builder: (context) => CarRentalSignupScreen()));
-          }else if(index == 1){
-            Navigator.push(
-                context,
-                MaterialPageRoute(
-                    builder: (context) => TicketBookingScreen()));
-          }else if(index == 2){
+          } else if (index == 1) {
+            Navigator.push(context,
+                MaterialPageRoute(builder: (context) => TicketBookingScreen()));
+          } else if (index == 2) {
             Navigator.push(
                 context,
                 MaterialPageRoute(
                     builder: (context) => BankingAppHomeScreen()));
-          }else if (index == 3){
+          } else if (index == 3) {
             Navigator.push(
-                context,
-                MaterialPageRoute(
-                    builder: (context) => HomeScreen()));
-          }else if (index == 4){
-            Navigator.push(
-                context,
-                MaterialPageRoute(
-                    builder: (context) => LoginScreen()));
+                context, MaterialPageRoute(builder: (context) => HomeScreen()));
+          } else if (index == 4) {
+            Navigator.push(context,
+                MaterialPageRoute(builder: (context) => LoginScreen()));
+          } else if (index == 5) {
+            Navigator.push(context,
+                MaterialPageRoute(builder: (context) => HomeScreenMusic()));
           }
         },
         child: Card(
