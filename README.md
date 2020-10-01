@@ -28,8 +28,7 @@ Design concept taken from https://www.uplabs.com/posts/banking-application-scree
 # Interior Decoration Design Screens
 Design concept taken from https://www.uplabs.com/posts/interior-decoration-8f1a4a61-a105-4e94-87bc-5005163ac043
 
-<img width="430" URL="https://user-images.githubusercontent.com/29778659/54197515-f8919200-44e5-11e9-8b97-2f809ca50547.gif">
-
+<img src="https://user-images.githubusercontent.com/29778659/54197515-f8919200-44e5-11e9-8b97-2f809ca50547.gif" alt="gif file" style="width:48px;height:48px">
 # Login Signup Design Screens
 Design concept taken from https://www.uplabs.com/posts/login-sign-up-page-template
 
