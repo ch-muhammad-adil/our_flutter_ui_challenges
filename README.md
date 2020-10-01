@@ -34,7 +34,7 @@ Design concept taken from https://www.uplabs.com/posts/interior-decoration-8f1a4
 Design concept taken from https://www.uplabs.com/posts/login-sign-up-page-template
 
 <img width="430" src="/screenshots/screenshot_login.png">
-<img src="/screenshots/screenshot_signup.png">
+<img width="430" src="/screenshots/screenshot_signup.png">
 
 # Music Player Design Screens
 Design concept taken from https://www.uplabs.com/posts/google-play-music-re-design-music-player-challenge
