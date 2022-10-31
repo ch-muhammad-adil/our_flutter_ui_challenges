@@ -9,6 +9,8 @@ Different set of screens implemented using flutter.
 ## Car Rental App 
 Design concept taken from https://www.uplabs.com/posts/car-rental-app-welcome-and-onboarding-screens 
 
+<p align="center"><img src="screenshots/cover/car_rental_cover.png" /></p>
+
 |                                      |                                      |
 | ------------------------------------ | ------------------------------------ |
 | <img width="300" alt="screen shot 2019-02-11 at 11 55 00 am" src="https://user-images.githubusercontent.com/29778659/52549213-e099f600-2df3-11e9-84f8-512a87139c66.png"> | <img width="300" alt="screen shot 2019-02-11 at 11 55 18 am" src="https://user-images.githubusercontent.com/29778659/52549222-eabbf480-2df3-11e9-81d5-e9758427ddae.png"> |
